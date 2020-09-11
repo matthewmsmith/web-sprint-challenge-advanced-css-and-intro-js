@@ -27,6 +27,7 @@ body{
     font-size:1.6rem;
     line-height: 1.5;
     font-family: 'Raleway', sans-serif;	
+    
 }
 h1, p, .name, .bio {	
     font-family: 'Raleway', sans-serif;	
@@ -133,4 +134,15 @@ button:hover{
 }
 .artist img{
     width:100%;
+}
+@media(max-width: 500px) {
+    .artist{
+     width: 100%;
+      
+    }
+    .artists-container {
+       display: flex;
+       flex-direction: column;
+    }
+
 }
